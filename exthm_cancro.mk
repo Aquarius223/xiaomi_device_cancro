@@ -16,14 +16,14 @@
 # Inherit from cancro device
 $(call inherit-product, device/xiaomi/cancro/cancro.mk)
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
+# Inherit some common Android exThmUI stuff.
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
-PRODUCT_NAME := mokee_cancro
+PRODUCT_NAME := exthm_cancro
 PRODUCT_DEVICE := cancro
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := MI Cancro
+PRODUCT_MODEL := MI 4
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
